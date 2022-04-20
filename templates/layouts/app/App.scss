@@ -1,0 +1,29 @@
+
+
+.app{
+    width: 100%;
+    height: 100%;
+
+    header{
+        height: 60px;
+        background-color: blue;
+    }
+    
+    main{
+        height: calc(100% - 60px);
+        background-color: aquamarine;
+
+        nav{
+            width: 200px;
+            display: inline-block;
+        }
+        
+        .content{
+            width: calc(100% - 200px);
+            height: 100%;
+            background-color: #fff;
+            display: inline-block;
+        }
+    }
+}
+

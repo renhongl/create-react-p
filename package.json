@@ -1,7 +1,7 @@
 {
   "name": "create-react-p",
-  "version": "1.0.1",
-  "description": "Create react project with no build configuration.",
+  "version": "1.1.0",
+  "description": "One line of command to start react project development.",
   "main": "cli.js",
   "homepage": "https://github.com/renhongl/create-react-p",
   "keywords": [
@@ -13,7 +13,8 @@
     "react-router"
   ],
   "dependencies": {
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "yargs": "^17.4.1"
   },
   "devDependencies": {},
   "scripts": {
